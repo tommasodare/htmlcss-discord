@@ -7,7 +7,7 @@
 
 .top,
 #community, #fandom, #invite-only, #tecnology,
-.table,
+#table,
 #ft_conteiner {
     padding: 1rem 15rem 1rem 15rem;
 }
@@ -251,21 +251,115 @@ button#open[type=button] {
     margin-bottom: 6rem;
 }
 
-.table {
-    height: 700px;
+#table {
+    min-height: 700px;
     background-color: #23272a;
     display: flex;
     justify-content: space-between;
+    padding-top: 5rem;
 }
 
 #nav {
-    flex-grow: 2;
-    background-color: #f08080;
+    width: 33%;
+    padding-right: 15rem;
+
+    h2 {
+        font-size: 30px;
+        color: #687cc4;
+        padding-bottom: 1rem;
+    }
+}
+
+#italian {
+    padding-right: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+    p {
+        padding-right: 0.25rem;
+        font-size: 12px;
+    }
+}
+
+#image {
+    height: 15px;
+    padding-right: 0.5rem;
+}
+
+#social-section {
+    padding-top: 1rem;
+}
+
+.social_imm {
+    height: 25px;
+    padding-right: 1rem;
 }
 
 .aside {
-    flex-grow: 1;
-    background-color: #20b2aa;
+    width: 17%;
+}
+
+#product {
+    list-style: none;
+    color: white;
+
+    #first_element {
+        color: #687cc4;
+        font-weight: bold;
+
+    }
+
+    li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+#company {
+    list-style: none;
+    color: white;
+
+    #first_element {
+        color: #687cc4;
+        font-weight: bold;
+    }
+
+    li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+#risorse {
+    list-style: none;
+    color: white;
+
+    #first_element {
+        color: #687cc4;
+        font-weight: bold;
+    }
+
+    li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+#norme {
+    list-style: none;
+    color: white;
+
+    #first_element {
+        color: #687cc4;
+        font-weight: bold;
+    }
+
+    li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 }
 
 #ft_conteiner {
