@@ -5,40 +5,36 @@
 }
 
 .top, #jumbotron, .cnt-section, .table, #ft_conteiner {
-    padding: 1rem 13rem 1rem 13rem;
+    padding: 1rem 15rem 1rem 15rem;
 }
 
 .top {
-    background-color: #add8e6;
+    background-color: #3161e0;
     
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     min-height: 30px;
-    background-color: #daa520;
+    background-color: #3161e0;
 }
 
-.header > div {
-    width: 25%;
-}
 
 #logo {
     display: flex;
     justify-content: flex-start;
-    padding-left: 0.5rem;
 }
 
 .list-unstyled {
     display: flex;
     list-style: none;
-    gap: 0.75rem;
-    width: 48%;
-    justify-content: center;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
 
     a { 
+        color: white;
         text-decoration: none;
     }
 
@@ -48,13 +44,15 @@
 
     }
 
-    #login_bt {
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 0.5rem;
+button[type=button] {
+        color: #313538;
+        background-color: #ffffff;
+        border-radius: 100px;
+        border: none;
+        padding: 0.7rem;
     }
 
-    #jumbotron {
+#jumbotron {
         background-color: #00008b;
         display: flex;
         align-items: center;
