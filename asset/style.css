@@ -6,7 +6,7 @@
 }
 
 .top,
-#community, #fandom, #invite-only,
+#community, #fandom, #invite-only, #tecnology,
 .table,
 #ft_conteiner {
     padding: 1rem 15rem 1rem 15rem;
@@ -156,7 +156,7 @@ button#open[type=button] {
 
     .small-box {
         padding-top: 2.5rem;
-        padding-left: 5rem;
+        padding-left: 7rem;
         padding-right: 10rem;
 
         h1 {
@@ -212,15 +212,43 @@ button#open[type=button] {
 }
 
 #tecnology {
-    background-color: #d3d3d3;
-    display: flex;
-    align-items: center;
+    background-color: #f6f6f6;
+    text-align: center;
 
-    div {
-        min-height: 800px;
-        width: 100%;
-        background-color: #228b22;
+    h1  {
+        padding: 2rem 0;
+        font-size: 35px;
+        font-weight: bold;
+        font-weight: 700;
     }
+
+    p {
+        padding: 0 20rem;
+        font-size: 15.5px;
+    }
+
+    img {
+        padding: 2rem 0 ;
+    }
+}
+
+#star {
+    width: 40%;
+    margin: auto;
+    background-image: url(./img/stars.svg);
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+#tecnology_bt[type=unload_bt] {
+    color: white;
+    background-color: #8ea1e1;
+    border-radius: 50px;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 6rem;
 }
 
 .table {
