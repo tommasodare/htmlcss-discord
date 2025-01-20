@@ -5,13 +5,16 @@
     font-family: 'Whitney A', 'Whitney B', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
-.top, #jumbotron, .cnt-section, .table, #ft_conteiner {
+.top,
+#community, #fandom, #invite-only,
+.table,
+#ft_conteiner {
     padding: 1rem 15rem 1rem 15rem;
 }
 
 .top {
     background-color: #3161e0;
-    
+
 }
 
 .header {
@@ -19,13 +22,13 @@
     justify-content: space-between;
     min-height: 30px;
     background-color: #3161e0;
-    margin-left: 3rem;
 }
 
 
 #logo {
     display: flex;
     justify-content: flex-start;
+    margin-left: 3rem;
 }
 
 .list-unstyled {
@@ -35,7 +38,7 @@
     justify-content: space-between;
     align-items: center;
 
-    a { 
+    a {
         color: white;
         text-decoration: none;
     }
@@ -44,45 +47,44 @@
         text-decoration: none;
     }
 
-    }
+}
 
 button.login_bt[type=button] {
-        color: #313538;
-        background-color: #ffffff;
-        border-radius: 100px;
-        border: none;
-        padding: 0.7rem;
-        margin-right: 3rem;
-    }
+    color: #313538;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    padding: 0.7rem;
+    margin-right: 3rem;
+}
 
 #jumbotron {
-        background-image: url(./img/jumbo.png);
-        background-size:cover;
-        align-items: center;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    align-items: center;
 
-        > div {
-            padding: 8rem 0rem 12rem 0rem;
-            width: 60%;
-            margin: auto;
-            text-align: center;
-        }
-
-        #titol {
-            text-align: center;
-            font-size: 48px;
-            color: white;
-            padding-bottom: 1.5rem;
-        }
-
-        #text-jmb {
-            line-height: 1.5rem;
-            font-size: 22px;
-            text-align:center;
-            color: white;
-            padding: 1.5rem 1rem;
-            line-height: 2rem;
-        }
+    >div {
+        padding: 8rem 0rem 12rem 0rem;
+        width: 45%;
+        margin: auto;
+        text-align: center;
     }
+
+    #titol {
+        text-align: center;
+        font-size: 48px;
+        color: white;
+        padding-bottom: 1.5rem;
+    }
+
+    #text-jmb {
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        padding: 1.5rem 1rem;
+        line-height: 2rem;
+    }
+}
 
 #button_container {
     display: flex;
@@ -92,59 +94,79 @@ button.login_bt[type=button] {
 }
 
 button#scarica[type=button] {
-        color: #313538;
-        background-color: #ffffff;
-        border-radius: 50px;
-        border: none;
-        padding: 1rem 1.5rem;
-        font-weight: 600;
-        font-size: 16px;
-    }
-
-button#open[type=button] {
-        color: white;
-        background-color: #23272a;
-        border-radius: 100px;
-        border: none;
-        padding: 1rem 1.5rem;
-        font-weight: 600;
-        font-size: 16px;
-    }
-
-
-.cnt-section {
-    min-height: 400px;
+    color: #313538;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-size: 16px;
 }
 
-.invite-only {
-        display: flex;
+button#open[type=button] {
+    color: white;
+    background-color: #23272a;
+    border-radius: 100px;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    font-size: 16px;
+}
 
+
+#invite-only {
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .big-box {
+        display: flex;
+        justify-content:flex-end;
+        padding-right: 2rem;
+    }
+
+    .small-box {
+        padding-top: 2.8rem;
+        padding-right: 15rem;
+        padding-left: 5rem;
+
+        h1 {
+            font-size: 40px;
+        }
+        
+        p { padding-top: 1rem;
+            line-height: 22px;
+            font-size: 17px;
+        }
+    }
+}
+
+
+#community {
+    display: flex;
+}
+
+#fandom {
+    display: flex;
 }
 
 .big-box {
-        flex-grow: 3;
-        background-color: #1e90ff;
+    width: 55%;
+
+    img {
+        max-width: 70%;
+    }
 }
 
 .small-box {
-        flex-grow: 2;
-        background-color: #ffc0cb;
-}
-
-.community {
-    background-color: #d3d3d3;
-    display: flex;
-}
-
-.fandom {
-    display: flex;
+    width: 45%;
 }
 
 #tecnology {
     background-color: #d3d3d3;
     display: flex;
     align-items: center;
-    
+
     div {
         min-height: 800px;
         width: 100%;
@@ -182,7 +204,8 @@ button#open[type=button] {
     align-items: center;
 }
 
-#ft_logo, #ft_button {
+#ft_logo,
+#ft_button {
     background-color: #ffb6c1;
     padding: 2px;
 }
