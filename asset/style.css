@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top, #jumbotron, .cnt-section, .table, #ft_conteiner {
+    padding: 1rem 13rem 1rem 13rem;
+}
+
+.top {
+    background-color: #add8e6;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30px;
+    background-color: #daa520;
+}
+
+.header > div {
+    width: 25%;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+}
+
+.list-unstyled {
+    display: flex;
+    list-style: none;
+    gap: 0.75rem;
+    width: 48%;
+    justify-content: center;
+
+    a { 
+        text-decoration: none;
+    }
+
+    &.hover {
+        text-decoration: none;
+    }
+
+    }
+
+    #login_bt {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 0.5rem;
+    }
+
+    #jumbotron {
+        background-color: #00008b;
+        display: flex;
+        align-items: center;
+        
+        div {
+            height: 300px;
+            width: 70%;
+            margin: auto;
+            background-color: #ee82ee;
+        }
+    }
+
+.cnt-section {
+    min-height: 400px;
+}
+
+.invite-only {
+        display: flex;
+
+}
+
+.big-box {
+        flex-grow: 3;
+        background-color: #1e90ff;
+}
+
+.small-box {
+        flex-grow: 2;
+        background-color: #ffc0cb;
+}
+
+.community {
+    background-color: #d3d3d3;
+    display: flex;
+}
+
+.fandom {
+    display: flex;
+}
+
+#tecnology {
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    
+    div {
+        min-height: 800px;
+        width: 100%;
+        background-color: #228b22;
+    }
+}
+
+.table {
+    height: 700px;
+    background-color: #23272a;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    flex-grow: 2;
+    background-color: #f08080;
+}
+
+.aside {
+    flex-grow: 1;
+    background-color: #20b2aa;
+}
+
+#ft_conteiner {
+    background-color: #23272a;
+    min-height: 50px;
+}
+
+#footer {
+    min-height: 30px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ft_logo, #ft_button {
+    background-color: #ffb6c1;
+    padding: 2px;
+}
